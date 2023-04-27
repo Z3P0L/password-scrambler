@@ -73,6 +73,7 @@
             // 
             // txtOutput
             // 
+            this.txtOutput.Enabled = false;
             this.txtOutput.Location = new System.Drawing.Point(17, 175);
             this.txtOutput.Multiline = true;
             this.txtOutput.Name = "txtOutput";
@@ -132,6 +133,7 @@
             // 
             // txtScrambledPasswords
             // 
+            this.txtScrambledPasswords.Enabled = false;
             this.txtScrambledPasswords.Location = new System.Drawing.Point(345, 46);
             this.txtScrambledPasswords.Multiline = true;
             this.txtScrambledPasswords.Name = "txtScrambledPasswords";
