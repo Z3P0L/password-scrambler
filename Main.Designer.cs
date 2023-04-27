@@ -95,6 +95,7 @@
             this.btnScramble.TabIndex = 5;
             this.btnScramble.Text = "Scramble";
             this.btnScramble.UseVisualStyleBackColor = true;
+            this.btnScramble.Click += new System.EventHandler(this.btnScramble_Click);
             // 
             // btnExit
             // 
@@ -104,6 +105,7 @@
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // llblCreator
             // 
@@ -125,6 +127,7 @@
             this.btnCopy.Size = new System.Drawing.Size(29, 23);
             this.btnCopy.TabIndex = 8;
             this.btnCopy.UseVisualStyleBackColor = false;
+            this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
             // 
             // Main
             // 
