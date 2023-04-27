@@ -37,6 +37,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.llblCreator = new System.Windows.Forms.LinkLabel();
             this.btnCopy = new System.Windows.Forms.Button();
+            this.txtScrambledPasswords = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -129,11 +130,21 @@
             this.btnCopy.UseVisualStyleBackColor = false;
             this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
             // 
+            // txtScrambledPasswords
+            // 
+            this.txtScrambledPasswords.Location = new System.Drawing.Point(345, 46);
+            this.txtScrambledPasswords.Multiline = true;
+            this.txtScrambledPasswords.Name = "txtScrambledPasswords";
+            this.txtScrambledPasswords.Size = new System.Drawing.Size(227, 242);
+            this.txtScrambledPasswords.TabIndex = 9;
+            this.txtScrambledPasswords.Text = "Saved scrambled passwords";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(597, 307);
+            this.Controls.Add(this.txtScrambledPasswords);
             this.Controls.Add(this.btnCopy);
             this.Controls.Add(this.llblCreator);
             this.Controls.Add(this.btnExit);
@@ -161,6 +172,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.LinkLabel llblCreator;
         private System.Windows.Forms.Button btnCopy;
+        private System.Windows.Forms.TextBox txtScrambledPasswords;
     }
 }
 
