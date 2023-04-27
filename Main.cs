@@ -27,7 +27,8 @@ namespace PasswordScrambler
             txtOutput.Text = scrambledPassword;
 
             Clipboard.SetText(scrambledPassword);
-            MessageBox.Show("[INFO]: The generated password is in your clipboard.");
+            if (scrambledPassword != "[ERROR]: Insert a valid password.")
+                MessageBox.Show("[INFO]: The generated password is in your clipboard.");
         }
 
         private void btnExit_Click(object sender, EventArgs e)
