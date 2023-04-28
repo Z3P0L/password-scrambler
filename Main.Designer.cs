@@ -37,7 +37,6 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.llblCreator = new System.Windows.Forms.LinkLabel();
             this.btnCopy = new System.Windows.Forms.Button();
-            this.txtScrambledPasswords = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -67,7 +66,7 @@
             this.txtPassword.Margin = new System.Windows.Forms.Padding(0);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(204, 25);
+            this.txtPassword.Size = new System.Drawing.Size(231, 25);
             this.txtPassword.TabIndex = 2;
             this.txtPassword.Text = "Type your normal password";
             // 
@@ -77,7 +76,7 @@
             this.txtOutput.Location = new System.Drawing.Point(17, 175);
             this.txtOutput.Multiline = true;
             this.txtOutput.Name = "txtOutput";
-            this.txtOutput.Size = new System.Drawing.Size(200, 64);
+            this.txtOutput.Size = new System.Drawing.Size(227, 64);
             this.txtOutput.TabIndex = 3;
             // 
             // lblOutput
@@ -93,7 +92,7 @@
             // 
             this.btnScramble.Location = new System.Drawing.Point(17, 265);
             this.btnScramble.Name = "btnScramble";
-            this.btnScramble.Size = new System.Drawing.Size(75, 23);
+            this.btnScramble.Size = new System.Drawing.Size(102, 23);
             this.btnScramble.TabIndex = 5;
             this.btnScramble.Text = "Scramble";
             this.btnScramble.UseVisualStyleBackColor = true;
@@ -103,7 +102,7 @@
             // 
             this.btnExit.Location = new System.Drawing.Point(142, 265);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(102, 23);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -112,7 +111,7 @@
             // llblCreator
             // 
             this.llblCreator.AutoSize = true;
-            this.llblCreator.Location = new System.Drawing.Point(342, 18);
+            this.llblCreator.Location = new System.Drawing.Point(14, 311);
             this.llblCreator.Name = "llblCreator";
             this.llblCreator.Size = new System.Drawing.Size(230, 13);
             this.llblCreator.TabIndex = 7;
@@ -124,29 +123,18 @@
             this.btnCopy.BackColor = System.Drawing.Color.Transparent;
             this.btnCopy.BackgroundImage = global::PasswordScrambler.Properties.Resources.copy;
             this.btnCopy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCopy.Location = new System.Drawing.Point(188, 148);
+            this.btnCopy.Location = new System.Drawing.Point(210, 148);
             this.btnCopy.Name = "btnCopy";
-            this.btnCopy.Size = new System.Drawing.Size(29, 23);
+            this.btnCopy.Size = new System.Drawing.Size(34, 23);
             this.btnCopy.TabIndex = 8;
             this.btnCopy.UseVisualStyleBackColor = false;
             this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
-            // 
-            // txtScrambledPasswords
-            // 
-            this.txtScrambledPasswords.Enabled = false;
-            this.txtScrambledPasswords.Location = new System.Drawing.Point(345, 46);
-            this.txtScrambledPasswords.Multiline = true;
-            this.txtScrambledPasswords.Name = "txtScrambledPasswords";
-            this.txtScrambledPasswords.Size = new System.Drawing.Size(227, 242);
-            this.txtScrambledPasswords.TabIndex = 9;
-            this.txtScrambledPasswords.Text = "Saved scrambled passwords";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 307);
-            this.Controls.Add(this.txtScrambledPasswords);
+            this.ClientSize = new System.Drawing.Size(268, 350);
             this.Controls.Add(this.btnCopy);
             this.Controls.Add(this.llblCreator);
             this.Controls.Add(this.btnExit);
@@ -174,7 +162,6 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.LinkLabel llblCreator;
         private System.Windows.Forms.Button btnCopy;
-        private System.Windows.Forms.TextBox txtScrambledPasswords;
     }
 }
 
