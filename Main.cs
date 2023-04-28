@@ -38,8 +38,11 @@ namespace PasswordScrambler
 
         private void btnCopy_Click(object sender, EventArgs e)
         {
-            Clipboard.SetText(txtOutput.Text);
-            MessageBox.Show("[INFO]: Text copied to clipboard");
+            if (txtOutput.Text != "")
+            {
+                Clipboard.SetText(txtOutput.Text);
+                MessageBox.Show("[INFO]: Text copied to clipboard");
+            }
         }
     }
 }
